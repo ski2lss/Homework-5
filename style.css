@@ -1,0 +1,40 @@
+p {
+    background-color: lightcoral;
+    color: black;
+}
+
+.class-selector {
+    background-color: lightblue;
+}
+
+#id-selector {
+    background-color: lightgreen;
+}
+
+[data-type="attribute"] {
+    background-color: khaki;
+}
+
+section p {
+    background-color: plum;
+}
+
+section > p.child-selector {
+    background-color: orange;
+}
+
+h2.sequence-selector {
+    background-color: turquoise;
+}
+
+div.box p {
+    background-color: violet;
+}
+
+#special-box p[data-color="blue"] {
+    background-color: dodgerblue;
+}
+
+article.article div p {
+    background-color: gold;
+}
