@@ -38,3 +38,7 @@ div.box p {
 article.article div p {
     background-color: gold;
 }
+
+h2 {
+    background-color: aqua;
+}
